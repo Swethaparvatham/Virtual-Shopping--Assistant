@@ -8,26 +8,14 @@ function App() {
   const bottomRef = useRef(null);
 
   const fixedCategories = [
-    "smartphones",
     "laptops",
-    "fragrances",
-    "skincare",
-    "groceries",
-    "home-decoration",
-    "furniture",
     "tops",
     "womens-dresses",
     "womens-shoes",
-    "mens-shirts",
     "mens-shoes",
     "mens-watches",
     "womens-watches",
     "womens-bags",
-    "womens-jewellery",
-    "sunglasses",
-    "automotive",
-    "motorcycle",
-    "lighting",
   ];
 
   useEffect(() => {
@@ -46,7 +34,7 @@ function App() {
     setMessages((prev) => [...prev, userMsg]);
 
     try {
-      const res = await fetch("http://localhost:5000/api/message", {
+      const res = await fetch("https://virtual-shopping-assistant-backend-yzp1.onrender.com/api/message", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: userInput }),
