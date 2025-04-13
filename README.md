@@ -22,7 +22,7 @@ The **Virtual Shopping Assistant** is a smart and interactive web app designed t
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/xenon1919/Virtual-Shopping-Assistant.git
+git clone https://github.com/Swethaparvatham/Virtual-Shopping--Assistant.git
 ```
 
 2. Navigate to the project directory:
@@ -61,4 +61,4 @@ node index.js
 
 ## 📄 License
 
-This project is open-source and available under the MIT License.  
+This project is open-source and available under the MIT License.
